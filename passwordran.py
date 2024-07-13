@@ -17,12 +17,6 @@ def getpass():
              password+=random.choice(psd)
         label2.config(text=f"newly generated password is: {password}")     
         
-
-
-
-
-
-
 #code for gui
 
 obj=Tk()
@@ -39,9 +33,6 @@ textbox.pack(pady=10)
 
 submit=Button(obj,text="get password ",command=getpass)
 submit.pack(pady=10)
-
-
-
 
 label2 = Label(obj, text="new password is:")
 label2.pack(pady=10)
